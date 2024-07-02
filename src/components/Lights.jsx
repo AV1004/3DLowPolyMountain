@@ -46,24 +46,25 @@ export const Lights = () => {
         decay={false}
       />
       {/* Lamps of Sign  */}
-      <pointLight
-        color={"yellow"}
+      {/* <pointLight
+        color={"white"}
         intensity={2}
         position={[-122, 4, 118]}
         decay={false}
-      />
+      /> */}
       <pointLight
-        color={"yellow"}
-        intensity={2}
-        position={[-121.5, 40, 123.5]}
+        // ref={lightRef}
+        color={"white"}
+        intensity={3}
+        position={[-121, 25, 123]}
         decay={false}
       />
-      <pointLight
-        color={"yellow"}
+      {/* <pointLight
+        color={"white"}
         intensity={2}
         position={[-117, 4, 125]}
         decay={false}
-      />
+      /> */}
     </>
   );
 };
